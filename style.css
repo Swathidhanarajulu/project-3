@@ -1,20 +1,23 @@
 body {
-  margin: 0;
-  font-family:Roboto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  justify-content: flex-start;
-  background:pink;
-  background-size: cover;
+  font-family: Arial, sans-serif;
+    background-image: url("C:/Users/hp/Downloads/nature.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
 }
 h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 25px;
   text-align: center;
-  color: brown;
+  color: beige;
 }
 .clock {
   display: flex;
@@ -26,7 +29,7 @@ h2 {
   width: 159px;
   height: 100px;
   opacity: 0.8;
-  background-color:blue;
+  background-color:#0F5132;
   color: white;
   display: flex;
   justify-content: center;
@@ -39,6 +42,6 @@ h2 {
   font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background:brown;
+  background:black;
   opacity: 0.8;
 }
